@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MamaPutOnline</title>
+    <link rel="stylesheet" href="css/output.css">
+</head>
+
+<body class="bg-gray-100">
+
+    <!-- HEADER -->
+    <header class="sticky top-0 z-50 bg-green-700 text-white shadow-md">
+        <div class="max-w-7xl mx-auto px-4 py-4 flex flex-col md:flex-row justify-between items-center">
+            <h1 class="text-2xl font-bold">MamaPutOnline</h1>
+
+            <nav class="mt-3 md:mt-0">
+                <ul class="flex flex-wrap gap-4 text-sm md:text-base">
+                    <li><a href="#hero" class="hover:text-yellow-300">Home</a></li>
+                    <li><a href="#soups" class="hover:text-yellow-300">Soups</a></li>
+                    <li><a href="#rice" class="hover:text-yellow-300">Rice</a></li>
+                    <li><a href="#specials" class="hover:text-yellow-300">Local Specials</a></li>
+                    <li><a href="#contact" class="hover:text-yellow-300">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section id="hero" class="min-h-[30vh] bg-white">
+        <div class="max-w-7xl mx-auto grid md:grid-cols-2 items-center gap-8 px-6 py-10">
+
+            <!-- TEXT -->
+            <div>
+                <h2 class="text-4xl md:text-6xl font-extrabold text-green-700 leading-tight">
+                    Delicious Nigerian Meals Delivered To Your Doorstep
+                </h2>
+
+                <p class="mt-6 text-gray-600 text-lg">
+                    Don't miss the opportunity to enjoy freshly prepared soups,
+                    rice dishes, local delicacies and snacks delivered nationwide.
+                </p>
+
+                <button class="mt-6 bg-yellow-500 hover:bg-yellow-600 text-black font-bold px-8 py-3 rounded-lg">
+                    Order Now
+                </button>
+
+                <p class="mt-4 font-semibold text-red-600">
+                    Nationwide Delivery Available
+                </p>
+            </div>
+
+            <!-- IMAGE -->
+            <div>
+                <img
+                    src="image/jellof.jpg"
+                    alt="Jefllof Rice and plantain"
+                    class="w-full h-[350px] object-cover rounded-xl shadow-lg"
+                >
+            </div>
+
+        </div>
+    </section>
+
+    <!-- MAIN CONTENT -->
+    <main class="max-w-7xl mx-auto flex flex-col md:flex-row gap-6 p-4">
+
+        <!-- SIDEBAR -->
+        <aside class="md:w-64 bg-white rounded-lg shadow p-4 h-fit sticky top-24">
+            <h3 class="font-bold text-xl mb-4 text-green-700">
+                Food Categories
+            </h3>
+
+            <ul class="space-y-3">
+                <li><a href="#soups" class="hover:text-green-700">Soups</a></li>
+                <li><a href="#rice" class="hover:text-green-700">Rice Dishes</a></li>
+                <li><a href="#specials" class="hover:text-green-700">Local Specials</a></li>
+                <li><a href="#delicacies" class="hover:text-green-700">More Delicacies</a></li>
+            </ul>
+        </aside>
+
+        <!-- PRODUCTS -->
+        <section class="flex-1 space-y-10">
+
+            <!-- ROW 1 -->
+            <section id="soups">
+                <h2 class="text-3xl font-bold text-green-700 mb-6">
+                    Soups
+                </h2>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+
+                    <div class="bg-white rounded-lg shadow">
+                        <img src="image/Egusi.jpg" alt="Egusi soup" class="h-48 w-full object-cover rounded-t-lg">
+                        <div class="p-4">
+                            <h3 class="font-bold">Egusi Soup</h3>
+                            <p>1 Bowl</p>
+                            <p class="text-green-700 font-bold">₦4,500</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-lg shadow">
+                        <img src="image/amala.jpg" alt="ewedu and amala" class="h-48 w-full object-cover rounded-t-lg">
+                        <div class="p-4">
+                            <h3 class="font-bold">Ewedu Soup</h3>
+                            <p>1 Bowl</p>
+                            <p class="text-green-700 font-bold">₦3,500</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-lg shadow">
+                        <img src="image/Ora soup.jpg" class="h-48 w-full object-cover rounded-t-lg">
+                        <div class="p-4">
+                            <h3 class="font-bold">Ora Soup</h3>
+                            <p>1 Bowl</p>
+                            <p class="text-green-700 font-bold">₦5,000</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-lg shadow">
+                        <img src="image/okra.jpg" alt="okra soup" class="h-48 w-full object-cover rounded-t-lg">
+                        <div class="p-4">
+                            <h3 class="font-bold">Okra Soup</h3>
+                            <p>1 Bowl</p>
+                            <p class="text-green-700 font-bold">₦5,500</p>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- ROW 2 -->
+            <section id="rice">
+                <h2 class="text-3xl font-bold text-green-700 mb-6">
+                    Rice Dishes
+                </h2>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+
+                    <div class="bg-white rounded-lg shadow">
+                        <img src="https://images.unsplash.com/photo-1512058564366-18510be2db19?w=600" class="h-48 w-full object-cover rounded-t-lg">
+                        <div class="p-4">
+                            <h3 class="font-bold">Jollof Rice</h3>
+                            <p>1 Pack</p>
+                            <p class="text-green-700 font-bold">₦3,500</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-lg shadow">
+                        <img src="image/fried rice.jpg" alt="fried rice" class="h-48 w-full object-cover rounded-t-lg">
+                        <div class="p-4">
+                            <h3 class="font-bold">Fried Rice</h3>
+                            <p>1 Pack</p>
+                            <p class="text-green-700 font-bold">₦4,000</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-lg shadow">
+                        <img src="image/ofada rice.jpg" alt="ofada rice" class="h-48 w-full object-cover rounded-t-lg">
+                        <div class="p-4">
+                            <h3 class="font-bold">Ofada Rice</h3>
+                            <p>1 Pack</p>
+                            <p class="text-green-700 font-bold">₦3,800</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-lg shadow">
+                        <img src="image/Rice and Vegetable stew.jpg" alt="Vegetable stew with rice" class="h-48 w-full object-cover rounded-t-lg">
+                        <div class="p-4">
+                            <h3 class="font-bold">Vegetable stew and Rice</h3>
+                            <p>1 Pack</p>
+                            <p class="text-green-700 font-bold">₦3,200</p>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- ROW 3 -->
+            <section id="specials">
+                <h2 class="text-3xl font-bold text-green-700 mb-6">
+                    Local Specials
+                </h2>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+
+                    <div class="bg-white rounded-lg shadow">
+                        <img src="image/abacha.jpg" alt="abacha" class="h-48 w-full object-cover rounded-t-lg">
+                        <div class="p-4">
+                            <h3 class="font-bold">Abacha</h3>
+                            <p>1 Plate</p>
+                            <p class="text-green-700 font-bold">₦4,500</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-lg shadow">
+                        <img src="image/nkwobi.jpg" alt="nkwobi" class="h-48 w-full object-cover rounded-t-lg">
+                        <div class="p-4">
+                            <h3 class="font-bold">Nkwobi</h3>
+                            <p>1 Plate</p>
+                            <p class="text-green-700 font-bold">₦6,500</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-lg shadow">
+                        <img src="image/plantain.jpg" class="h-48 w-full object-cover rounded-t-lg">
+                        <div class="p-4">
+                            <h3 class="font-bold">Roasted Plantain</h3>
+                            <p>2 Pieces</p>
+                            <p class="text-green-700 font-bold">₦4,000</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-lg shadow">
+                        <img src="image/Kpomo.jpg" class="h-48 w-full object-cover rounded-t-lg">
+                        <div class="p-4">
+                            <h3 class="font-bold">Kpomo</h3>
+                            <p>1 Portion</p>
+                            <p class="text-green-700 font-bold">₦2,500</p>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- ROW 4 -->
+            <section id="snacks">
+                <h2 class="text-3xl font-bold text-green-700 mb-6">
+                    More Delicacies
+                </h2>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+
+                    <div class="bg-white rounded-lg shadow p-4">
+                        <h3 class="font-bold">Okazi Soup</h3>
+                        <p>1 Bowl</p>
+                        <p class="text-green-700 font-bold">₦5,000</p>
+                    </div>
+
+                    <div class="bg-white rounded-lg shadow p-4">
+                        <h3 class="font-bold">Ogbono Soup</h3>
+                        <p>1 Bowl</p>
+                        <p class="text-green-700 font-bold">₦4,800</p>
+                    </div>
+
+                    <div class="bg-white rounded-lg shadow p-4">
+                        <h3 class="font-bold">Okro Soup</h3>
+                        <p>1 Bowl</p>
+                        <p class="text-green-700 font-bold">₦4,200</p>
+                    </div>
+
+                    <div class="bg-white rounded-lg shadow p-4">
+                        <h3 class="font-bold">Fried Plantain</h3>
+                        <p>1 Pack</p>
+                        <p class="text-green-700 font-bold">₦1,500</p>
+                    </div>
+
+                </div>
+            </section>
+
+        </section>
+
+        
+
+    </main>
+    <!-- CONTACT SECTION -->
+<section id="contact" class="bg-white py-12 px-4">
+    <div class="max-w-7xl mx-auto">
+
+        <h2 class="text-3xl font-bold text-center text-green-700 mb-10">
+            Contact MamaPutOnline
+        </h2>
+
+        <div class="grid md:grid-cols-2 gap-8">
+
+            <!-- Contact Information -->
+            <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+
+                <h3 class="text-2xl font-semibold text-green-700 mb-4">
+                    Visit Our Location
+                </h3>
+
+                <p class="mb-4 text-gray-700">
+                    <span class="font-bold">Address:</span><br>
+                    MamaPutOnline<br>
+                    Savage Crescent GRA,<br>
+                    Enugu State, Nigeria.
+                </p>
+
+                <p class="mb-4 text-gray-700">
+                    <span class="font-bold">Phone:</span><br>
+                    +234 800 123 4567
+                </p>
+
+                <p class="text-gray-700">
+                    We offer fast and reliable nationwide delivery of freshly
+                    prepared Nigerian meals directly to your doorstep.
+                </p>
+
+            </div>
+
+            <!-- Contact Form -->
+            <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+
+                <h3 class="text-2xl font-semibold text-green-700 mb-4">
+                    Send Us A Message
+                </h3>
+
+                <form action="#" method="post" class="space-y-4">
+
+                    <div>
+                        <label
+                            for="message"
+                            class="block font-medium mb-2"
+                        >
+                            Your Message
+                        </label>
+
+                        <textarea
+                            id="message"
+                            name="message"
+                            rows="6"
+                            placeholder="Type your message here..."
+                            class="w-full border border-gray-300 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-green-500"
+                        ></textarea>
+                    </div>
+
+                    <button
+                        type="submit"
+                        class="bg-green-700 hover:bg-green-800 text-white font-bold px-6 py-3 rounded-lg w-full md:w-auto"
+                    >
+                        Send Message
+                    </button>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+    <!-- FOOTER -->
+    <footer id="footer" class="sticky bottom-0 bg-green-800 text-white mt-10">
+        <div class="max-w-7xl mx-auto px-4 py-4 flex flex-col md:flex-row justify-between items-center">
+
+            <p>
+                © 2026 MamaPutOnline 
+            </p>
+
+            <div class="flex gap-6 mt-3 md:mt-0">
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">X</a>
+                <a href="#">Telegram</a>
+            </div>
+
+        </div>
+    </footer>
+
+    <!--Prompts used
+    Using only HTML and Tailwind CSS, NO SCRIPT!, just html and tailwind, dont add any form of script, I've installed tailwind, I have also created a css folder with input.css and ouput.css, dont include tailwind script. create a responsive mobile page for MamaPutOnline with a sticky header and a sticy footer. MamaPutOnline sells different types of cooked soups like egusi, ewedu, ora and okro, add pictures of the food and it's naira price.
+    
+   Remember to include jollof rice, fried rice, roasted plantain, abacha, nkwobi and kpomo, add pictures of the food and it's naira price. and offer nationwide delivery, remember to attach naira prices to the foods.
+   
+   create a hero section for mamaput online, below the menu bar section, let there be a hero section with a Call-To-Action button The hero section should occupy at least 30% of the vertical length of the page and 100% of the breathe of the page. The hero section should be vertically partitioned into two; One side of the hero section should display the picture of a steaming, deliciously-cooked Nigerian dish / soup (with the right aspect ratio and with the right pixelization) The other side of the hero section should have boldly-written words in large print, lettering inviting people to not miss the opportunity to buy from your online store
+   
+   create rows for mamaputonline, three rows on the landing page...on the right side of the side panel...with each row have at least 4 product cards You can add more rows and product cards if you want The product cards should identify the product boldly, the quantity and the price in Naira. 
+   
+   do you still recall the codes you wrote for mamaput online? kindly create a contact section where a customer can view mamaputonline which is located at Savage Crescent Gra Enugu, also add a generic phone number , an input label and a send message button
+   Let the landing page also have a footer that has all the social media links (X, facebook, Instagram, Telegram).
+   
+   -->
+
+</body>
+</html>
